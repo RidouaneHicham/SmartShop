@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="theme2_darker_color">#5dab8a</color>
+    <color name="theme2_dark_color">#5dab8a</color>
+    <color name="theme2_primary_color">#5dab8a</color>
+    <color name="theme2_light_color">#5dab8a</color>
+    <color name="dark_gray">#303030</color>
+    <color name="light_gray">#9da5ac</color>
+    <color name="very_light_gray">#eeeeee</color>
+    <color name="border_color">#cecece</color>
+    <color name="separator_color">#dadbdb</color>
+    <color name="hot_red">#B20000</color>
+    <color name="snow_gray">#e8e8e8</color>
+    <color name="white">#FFF</color>
+
+
+    <color name="text_gray">#8899a6</color>
+    <color name="green">#63b492</color>
+    <color name="mustard">#c89d2c</color>
+    <color name="gray">#747474</color>
+    <color name="gray2">#8899a6</color>
+
+    <color name="main_cherry_primary_color">#ff5a5f</color>
+    <color name="main_cherry_dark_color">#ff5a5f</color>
+    <color name="main_cherry_darker_color">#ff5a5f</color>
+    <color name="main_cherry_light_color">#ff5a5f</color>
+
+    <color name="main_light_gray_color">#dadbdb</color>
+    <color name="main_light_gray_dark_color">#dadbdb</color>
+    <color name="main_light_gray_darker_color">#dadbdb</color>
+    <color name="main_light_gray_light_color">#dadbdb</color>
+
+    <color name="main_green">#6e98b9</color>
+    <color name="main_green_dark_color">#547b99</color>
+    <color name="main_green_darker_color">#547b99</color>
+    <color name="main_green_light_color">#6e98b9</color>
+
+    <color name="cyan">#6db3b9</color>
+    <color name="cyan_dark_color">#60a0a5</color>
+    <color name="cyan_darker_color">#60a0a5</color>
+    <color name="cyan_light_color">#6db3b9</color>
+
+    <color name="orange">#FF9A00</color>
+    <color name="orange_dark_color">#c89d2c</color>
+    <color name="orange_darker_color">#c89d2c</color>
+    <color name="orange_light_color">#c89d2c</color>
+
+    <color name="deep_blue">#2d5b81</color>
+    <color name="deep_blue_dark_color">#2d5b81</color>
+    <color name="deep_blue_derker_color">#2d5b81</color>
+    <color name="deep_blue_light_color">#2d5b81</color>
+
+
+    <color name="hot_orange">#FF530D</color>
+    <color name="hot_orange_darker_color">#FF530D</color>
+    <color name="hot_orange_dark_color">#FF530D</color>
+    <color name="hot_orange_light_color">#FF530D</color>
+
+    <integer-array name="hot_orange">
+        <item>@color/hot_orange</item>
+        <item>@color/hot_orange_darker_color</item>
+        <item>@color/hot_orange_dark_color</item>
+        <item>@color/hot_orange_light_color</item>
+    </integer-array>
+
+    <integer-array name="deep_blue">
+        <item>@color/deep_blue</item>
+        <item>@color/deep_blue_dark_color</item>
+        <item>@color/deep_blue_derker_color</item>
+        <item>@color/deep_blue_light_color</item>
+    </integer-array>
+
+
+
+    <integer-array name="cyan">
+        <item>@color/cyan_darker_color</item>
+        <item>@color/cyan_dark_color</item>
+        <item>@color/cyan</item>
+        <item>@color/cyan_light_color</item>
+    </integer-array>
+
+    <integer-array name="orange_theme">
+        <item>@color/orange_darker_color</item>
+        <item>@color/orange_dark_color</item>
+        <item>@color/orange</item>
+        <item>@color/orange_light_color</item>
+    </integer-array>
+
+    <integer-array name="custom_theme_2">
+        <item>@color/theme2_darker_color</item>
+        <item>@color/theme2_dark_color</item>
+        <item>@color/theme2_primary_color</item>
+        <item>@color/theme2_light_color</item>
+    </integer-array>
+
+    <integer-array name="cherry">
+        <item>@color/main_cherry_darker_color</item>
+        <item>@color/main_cherry_dark_color</item>
+        <item>@color/main_cherry_primary_color</item>
+        <item>@color/main_cherry_light_color</item>
+    </integer-array>
+
+    <integer-array name="blue_green">
+        <item>@color/main_green_darker_color</item>
+        <item>@color/main_green_dark_color</item>
+        <item>@color/main_green</item>
+        <item>@color/main_green_light_color</item>
+    </integer-array>
+
+    <integer-array name="light_gray">
+        <item>@color/main_light_gray_darker_color</item>
+        <item>@color/main_light_gray_dark_color</item>
+        <item>@color/main_light_gray_color</item>
+        <item>@color/main_light_gray_light_color</item>
+    </integer-array>
+
+   <!--- <color name="light_navy">#2d5b81</color>-->
+
+</resources>

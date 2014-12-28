@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drop"
+    android:paddingBottom="8px"
+    android:paddingTop="12px"
+    android:paddingLeft="12px"
+    android:paddingRight="12px"
+>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+
+    <TextView
+        android:id="@+id/article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="@color/gray2"
+        android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/square_layout"
+         />
+
+    <TextView
+        android:id="@+id/vendorlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="@color/gray"
+        android:layout_below="@+id/article"
+        android:text="@string/vendor_label" />
+
+    <TextView
+        android:id="@+id/vendor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_below="@+id/article"
+        android:layout_toRightOf="@+id/vendorlabel" />
+
+    <TextView
+        android:id="@+id/categorylabel"
+        android:layout_width="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vendorlabel"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/category_label" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_below="@+id/vendor"
+        android:layout_toRightOf="@+id/categorylabel" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category"
+        android:padding="10dp">
+
+        <com.cengalabs.flatui.views.FlatButton
+        android:id="@+id/pourcentage"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        flatui:cornerRadius="2dp"
+        flatui:theme="@array/custom_theme_2"
+        />
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/likes"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            flatui:cornerRadius="2dp"
+            flatui:textAppearance="light"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+
+            android:layout_toRightOf="@+id/pourcentage"
+            flatui:theme="@array/snow"
+            />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_clock_50"
+        android:textColor="@color/gray2"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/square_layout">
+
+        <com.hichamridouane.smartshop.ENESquareImageView
+            android:id="@+id/imagearticle2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true" />
+        </FrameLayout>
+
+</RelativeLayout>
+</RelativeLayout>

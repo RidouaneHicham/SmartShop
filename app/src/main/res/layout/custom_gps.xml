@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <com.cengalabs.flatui.views.FlatTextView
+        android:id="@+id/gps_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textColor="@color/hot_orange"
+        android:text="Pas de données GPS"
+        android:drawableLeft="@drawable/ic_gps"
+        android:fontFamily="sans-serif-thin"
+        android:padding="10sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <com.cengalabs.flatui.views.FlatTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gps_text"
+        android:text="@string/gps_text"
+        android:padding="10sp"
+        android:textColor="@color/gray"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+</LinearLayout>

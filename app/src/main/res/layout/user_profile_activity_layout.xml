@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:weightSum="2">
+    <!-- to show what the parent is -->
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/green"
+        android:layout_weight="1" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.facebook.widget.ProfilePictureView
+                android:id="@+id/userProfilePicture"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                facebook:preset_size="normal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/snow_primary"
+                android:layout_below="@+id/userProfilePicture" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/city_holder"
+                android:drawableLeft="@drawable/ic_worldwide"
+                android:layout_below="@+id/userName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/snow_primary"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="City Holder"/>
+
+
+        </RelativeLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.cengalabs.flatui.views.FlatButton
+
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/logout"
+                android:textColor="#fff"
+                flatui:theme="@array/snow"
+                flatui:cornerRadius="2sp"
+                android:drawableLeft="@drawable/ic_close"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mes favoris"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_favorite"
+                android:id="@+id/mes_fav"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/ic_reminder"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mes abonnements"
+                android:gravity="center"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/mes_fav" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_shopping_cart"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Historique de mes achats"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView4"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+
+        </LinearLayout>
+</LinearLayout>

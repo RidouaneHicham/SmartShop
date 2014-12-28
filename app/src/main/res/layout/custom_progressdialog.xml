@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10sp"
+    android:layout_height="match_parent">
+    <com.cengalabs.flatui.views.FlatTextView
+        android:id="@+id/progress_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textColor="@color/green"
+        android:text="SmartShop"
+        android:fontFamily="sans-serif-thin"
+        android:padding="10sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <com.cengalabs.flatui.views.FlatTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progress_text"
+        android:text="Chargement en cours.."
+        android:padding="10sp"
+        android:textColor="@color/gray"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</LinearLayout>

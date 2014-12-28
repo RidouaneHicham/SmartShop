@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10sp"
+    android:layout_height="match_parent">
+
+<com.cengalabs.flatui.views.FlatTextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/title"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    flatui:fontFamily="roboto"
+    flatui:fontWeight="light"
+    flatui:fontExtension="ttf"
+    android:text="Choisissez vos paramètres"/>
+
+    <com.cengalabs.flatui.views.FlatCheckBox
+        android:id="@+id/fourniture"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fourniture"
+        flatui:theme="@array/blue_green"
+        flatui:cornerRadius="1dp"
+        flatui:size="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.cengalabs.flatui.views.FlatCheckBox
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/nourriture"
+        android:text="Nourriture"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        flatui:theme="@array/blue_green"
+        flatui:cornerRadius="1dp"
+        flatui:size="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.cengalabs.flatui.views.FlatCheckBox
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/voyages"
+        android:text="Voyages"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        flatui:theme="@array/blue_green"
+        flatui:cornerRadius="1dp"
+        flatui:size="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.cengalabs.flatui.views.FlatCheckBox
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/habillement"
+        android:text="Habillement"
+        flatui:theme="@array/blue_green"
+        flatui:cornerRadius="1dp"
+        android:layout_marginLeft="15sp"
+        flatui:size="15dp"
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.cengalabs.flatui.views.FlatCheckBox
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/medias"
+        android:text="Médias"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        flatui:size="15dp"
+        flatui:theme="@array/blue_green"
+        flatui:cornerRadius="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.cengalabs.flatui.views.FlatCheckBox
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/autres"
+        android:text="Autres"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        flatui:theme="@array/blue_green"
+        flatui:cornerRadius="1dp"
+        flatui:size="15dp"
+        android:persistent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/settings_ok"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10sp"
+            android:layout_height="wrap_content"
+            flatui:theme="@array/cyan"
+            flatui:cornerRadius="2sp"
+            android:clickable="true"
+            android:text="Activate"/>
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/settings_quit"
+            android:layout_weight="1"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            flatui:theme="@array/cyan"
+            flatui:cornerRadius="2sp"
+            android:text="Cancel"
+            android:clickable="true"/>
+
+    </LinearLayout>
+</LinearLayout>

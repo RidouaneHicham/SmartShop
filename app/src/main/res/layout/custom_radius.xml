@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/distance_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veuillez choisir l'étendu de votre recherche.\n\nPar défaut les deals à 50 Km de votre position sont chargés dans votre Timeline."
+        android:padding="10sp"
+        android:textColor="@color/gray"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/distance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" "/>
+
+    <SeekBar
+        android:id="@+id/distance_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

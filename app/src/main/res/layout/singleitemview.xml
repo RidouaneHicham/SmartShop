@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/category"
+            android:id="@+id/relativeLayout">
+
+            <com.hichamridouane.smartshop.ENESquareImageView
+                android:id="@+id/image_single"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/drop"
+                android:paddingBottom="12px"
+                android:paddingTop="12px"
+                android:paddingLeft="12px"
+                android:paddingRight="12px"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/image_single"
+            >
+            <TextView
+
+                android:id="@+id/article_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/hot_orange"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+
+                android:id="@+id/vendor_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:textColor="@color/gray"
+                android:layout_below="@+id/article_single"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/reduction_single"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="93sp"
+                android:layout_height="30dp"
+                flatui:cornerRadius="2dp"
+                flatui:theme="@array/custom_theme_2"
+                />
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/favoris_single"
+                android:layout_below="@+id/reduction_single"
+                android:layout_alignParentRight="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="93sp"
+                android:layout_height="30dp"
+                flatui:cornerRadius="2dp"
+                flatui:theme="@array/custom_theme_2"
+                />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="30dp"
+                android:layout_marginTop="60dp"
+                android:layout_below="@+id/vendor_single"
+                android:text="@string/description"/>
+
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/ajouter_aux_favoris"
+                    android:drawableLeft="@drawable/ic_like2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:textSize="12sp"
+                    flatui:cornerRadius="2dp"
+                    android:layout_below="@+id/description"
+                    android:layout_alignParentLeft="true"
+                    flatui:textAppearance="light"
+                    android:textAlignment="center"
+                    flatui:theme="@array/snow"
+                    />
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:id="@+id/partager"
+                android:textSize="12sp"
+                flatui:cornerRadius="2dp"
+                android:text="Partager"
+                flatui:theme="@array/snow"
+                android:layout_below="@+id/description"
+                android:layout_toLeftOf="@+id/fermer"
+                android:layout_toStartOf="@+id/fermer" />
+
+           <com.cengalabs.flatui.views.FlatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/fermer"
+                    android:text="Fermer"
+                    flatui:cornerRadius="2dp"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/description"
+                    flatui:theme="@array/snow"
+                    android:layout_alignParentRight="true"
+                 />
+
+        </RelativeLayout>
+        </RelativeLayout>
+</RelativeLayout>

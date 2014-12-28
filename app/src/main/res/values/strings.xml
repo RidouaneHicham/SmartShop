@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartShop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="articlelabel">"Article :  "</string>
+    <string name="vendor_label">"Magazin : "</string>
+    <string name="category_label">"Dans la catégorie "</string>
+    <string name="title_activity_starting">StartingActivity</string>
+    <string name="title_activity_geolocation_test">GeolocationTest</string>
+    <string name="title_activity_timeline_settings">TimelineSettings</string>
+    <string name="APP_ID">756421424414210</string>
+    <string name="title_activity_user_details">UserDetailsActivity</string>
+    <string name="location">Location</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="relationship">Relationship</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="login_intro">Check out your Facebook profile by logging in with the button below!</string>
+    <string name="action_search">Sarch</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+    <string name="com_facebook_loginview_log_in_button">Connexion Facebook</string>
+    <string name="com_facebook_loginview_log_out_button">Déconnexion</string>
+    <string name="continue_browsing">Poursuivre sans connexion</string>
+    <string name="go_home">Mon profil</string>
+    <string name="refresh">Rafraichir la timeline</string>
+    <string name="select_categories">Choix des catégories</string>
+    <string name="select_radius">Définir le rayon de recherche</string>
+    <string name="title_activity_user_profile_activity">user_profile_activity</string>
+    <string name="timeline_settings">Vos préférences</string>
+    <string name="slogan">Les bonnes affaires à portée de main !</string>
+    <string name="gps_text">SmartShop a besoin de votre localisation pour détecter les magazins de votre région.\n\nSouhaitez vous activer votre GPS ?</string>
+    <string name="connect_text">Vous n\'avez pas encore créé de compte SmartShop.\nVoulez vous créer un compte et vous connecter via Facebook ?</string>
+    <string name="fourniture">Fourniture</string>
+    <string name="Nourriture">Nourriture</string>
+    <string name="Voyages">Voyages / Loisirs</string>
+    <string name="Habillement">Habillement</string>
+    <string name="Medias">Médias / High Tech</string>
+    <string name="autres">Autres</string>
+    <string name="title_activity_gps">GpsActivity</string>
+    <string name="logo">SmartShop</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="acceder_profile">Accéder à mon profil</string>
+    <string name="commencer_shopping">Commencer le shopping !</string>
+    <string name="connexion_fb">Connexion avec Facebook</string>
+    <string name="blocked">Vous n\'avez pas créé de compte.</string>
+    <string name="beta">Cette option sera disponible prochainement.</string>
+    <string name="description">I am using an activity with the dialog theme set, and I want it to be full screen. I tried all sorts of things, even going through the WindowManager to expand the window to full width and height manually, but nothing works.</string>
+
+
+
+     <string name="progress_txt">
+              <![CDATA[
+              <b><font face="sans-serif-light" color="#63b492" size="7">Chargement en cours...</font></b>
+                ]]>
+     </string>
+
+</resources>

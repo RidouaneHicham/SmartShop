@@ -1,0 +1,57 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:flatui="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+    <com.cengalabs.flatui.views.FlatTextView
+        android:id="@+id/gps_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        flatui:theme="@array/blue_green"
+        android:text="No GPS Data"
+        android:padding="10sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <com.cengalabs.flatui.views.FlatTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gps_text"
+        android:text="@string/gps_text"
+        android:padding="10sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10sp"
+            android:layout_height="wrap_content"
+            flatui:theme="@array/cyan"
+            flatui:cornerRadius="2sp"
+            android:clickable="true"
+            android:text="Activate"
+
+            />
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/cancel_button"
+            android:layout_weight="1"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            flatui:theme="@array/cyan"
+            flatui:cornerRadius="2sp"
+            android:text="Cancel"
+            android:clickable="true"
+            />
+</LinearLayout>
+</LinearLayout>

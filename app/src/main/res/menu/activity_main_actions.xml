@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Radius button
+
+    <item android:id="@+id/action_select_radius"
+        android:title="@string/select_radius"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_radius"/>-->
+
+    <!-- refresh button -->
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_reload"/>
+
+    <!-- Caterogies button -->
+
+    <item android:id="@+id/action_select_categories"
+        android:title="@string/select_categories"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_shopping_cart_slim"/>
+
+    <!-- bouton pour accéder à la seclection du rayon -->
+
+    <item android:id="@+id/action_select_radius"
+        android:icon="@drawable/ic_distance"
+        android:title="Choix de la portée"
+        android:showAsAction="always"
+        />
+
+
+    <!-- bouton espace client -->
+    <item android:id="@+id/action_go_home"
+        android:icon="@drawable/ic_user_male"
+        android:title="@string/go_home"
+        android:showAsAction="always" />
+
+
+
+
+</menu>
