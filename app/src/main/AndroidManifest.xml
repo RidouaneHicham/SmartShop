@@ -25,20 +25,20 @@
     <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name="com.hichamridouane.smartshop.ParseApplication"
+        android:name=".model.ParseApplication"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.hichamridouane.smartshop.MainActivity" >
+        <activity android:name=".model.MainActivity" >
 
 
         </activity>
-        <activity android:name="com.hichamridouane.smartshop.SingleItemView"
+        <activity android:name=".model.SingleItemView"
                   android:theme="@style/ArticleDialog"
                   android:excludeFromRecents="true" >
         </activity>
         <activity
-            android:name="com.hichamridouane.smartshop.StartingActivity"
+            android:name=".model.StartingActivity"
             android:label="@string/title_activity_starting"
             android:theme="@style/NoActionBar" >
 
@@ -49,11 +49,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.hichamridouane.smartshop.GeolocationTest"
-            android:label="@string/title_activity_geolocation_test" >
-        </activity>
-        <activity
-            android:name="com.hichamridouane.smartshop.TimelineSettings"
+            android:name=".model.TimelineSettings"
             android:label="@string/title_activity_timeline_settings"
             android:theme="@android:style/Theme.Holo.Light.Dialog" >
         </activity>
@@ -86,9 +82,9 @@
         </receiver>
 
         <activity
-            android:name="com.hichamridouane.smartshop.UserProfileActivity"
+            android:name=".model.UserProfileActivity"
             android:label="@string/title_activity_user_profile_activity"
-            android:parentActivityName="com.hichamridouane.smartshop.MainActivity" >
+            android:parentActivityName=".model.MainActivity" >
         </activity>
     </application>
 

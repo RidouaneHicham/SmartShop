@@ -11,7 +11,7 @@
             android:layout_below="@+id/category"
             android:id="@+id/relativeLayout">
 
-            <com.hichamridouane.smartshop.ENESquareImageView
+            <com.hichamridouane.smartshop.view.ENESquareImageView
                 android:id="@+id/image_single"
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"

@@ -110,7 +110,7 @@
         android:layout_height="fill_parent"
         android:id="@+id/square_layout">
 
-        <com.hichamridouane.smartshop.ENESquareImageView
+        <com.hichamridouane.smartshop.view.ENESquareImageView
             android:id="@+id/imagearticle2"
             android:layout_width="match_parent"
             android:layout_height="fill_parent"
