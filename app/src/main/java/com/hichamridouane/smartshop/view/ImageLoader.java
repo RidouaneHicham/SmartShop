@@ -26,9 +26,9 @@ import android.graphics.BitmapFactory;
 import android.widget.ImageView;
 
 import com.hichamridouane.smartshop.R;
-import com.hichamridouane.smartshop.controller.FileCache;
-import com.hichamridouane.smartshop.controller.MemoryCache;
-import com.hichamridouane.smartshop.controller.Utils;
+import com.hichamridouane.smartshop.utils.FileCache;
+import com.hichamridouane.smartshop.utils.MemoryCache;
+import com.hichamridouane.smartshop.utils.Utils;
 
 public class ImageLoader {
     MemoryCache memoryCache = new MemoryCache();

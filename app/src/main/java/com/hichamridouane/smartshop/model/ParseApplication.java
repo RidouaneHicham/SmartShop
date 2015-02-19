@@ -4,6 +4,7 @@ package com.hichamridouane.smartshop.model;
  * Created by Hicham Ridouane on 05/07/2014.
  */
 import com.hichamridouane.smartshop.R;
+import com.hichamridouane.smartshop.activities.MainActivity;
 import com.parse.Parse;
 import com.parse.ParseFacebookUtils;
 import com.parse.ParseInstallation;
